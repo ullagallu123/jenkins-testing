@@ -16,6 +16,13 @@ pipeline {
                 """
             }
         }
+        stage("Docker Version"){
+            steps{
+                sh"""
+                docker version
+                """
+            }
+        }
     }
     post {
         always {

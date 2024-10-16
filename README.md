@@ -7,4 +7,6 @@
 * SonarScanner
 * Slack
 * HashiCorp Vault
-* 
+* AWS
+* Pipeline Stage View
+* Blue Ocean

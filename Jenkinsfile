@@ -38,6 +38,13 @@ pipeline {
                 """
             }
         }
+        stage("AWS CLI2 Version"){
+            steps{
+                sh"""
+                aws --version
+                """
+            }
+        }
     }
     post {
         always {

@@ -8,6 +8,14 @@ pipeline {
                 echo "Hello Welcome to Jenkins!"
             }
         }
+        stage("NODEJS Version"){
+            steps{
+                sh """
+                node -v
+                npm -v
+                """
+            }
+        }
     }
     post {
         always {

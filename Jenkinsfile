@@ -23,6 +23,13 @@ pipeline {
                 """
             }
         }
+        stage("Java Version"){
+            steps{
+                sh"""
+                java --version
+                """
+            }
+        }
     }
     post {
         always {

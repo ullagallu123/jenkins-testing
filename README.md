@@ -5,6 +5,7 @@
 * SSH-Agent
 * Blue-Ocean
 * SonarScanner
+* Sonar Quality Gates
 * Slack
 * HashiCorp Vault
 * AWS

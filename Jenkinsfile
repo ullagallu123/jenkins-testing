@@ -45,6 +45,16 @@ pipeline {
                 """
             }
         }
+        stage("Miscellanious Tools"){
+            steps{
+                sh"""
+                kubectl --version --client
+                terraform --version
+                packer --version
+                trivy --version
+                """
+            }
+        }
     }
     post {
         always {

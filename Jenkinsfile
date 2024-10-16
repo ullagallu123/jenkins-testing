@@ -30,6 +30,14 @@ pipeline {
                 """
             }
         }
+        stage("Python Version"){
+            steps{
+                sh"""
+                python3 --version
+                pip3 --version
+                """
+            }
+        }
     }
     post {
         always {
